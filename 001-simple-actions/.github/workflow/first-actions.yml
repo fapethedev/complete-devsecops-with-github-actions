@@ -1,0 +1,9 @@
+name: Push Actions
+on: [push]
+
+jobs:
+  run-echo-action:
+    run-on: ubuntu-latest
+    steps:
+      - name: Echo a String
+        run: echo "My First GitHub Actions"
